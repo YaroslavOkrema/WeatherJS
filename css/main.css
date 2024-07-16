@@ -1,1 +1,56 @@
 @import "reset.css";
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px 15px 50px;
+    background: linear-gradient(167deg, #42d2a6 4.7%, #007991 95.98%), #389196;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.18;
+    font-size: 44px;
+    color: white;
+}
+
+.form {
+    display: flex;
+    height: 54px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.input {
+    padding: 15px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1;
+    color: black;
+}
+
+.btn {
+    width: 145px;
+    height: 54px;
+    background: #cc434a;
+    border-radius: 6px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.btn:hover {
+    background: #f30909;
+}
